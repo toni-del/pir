@@ -1,6 +1,4 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap');
-/*fа*/
-/*f*/
 header {
     width: 1366px;
     height: 63px;
@@ -202,7 +200,7 @@ body {
 .i {
     width: 341px;
     height: 300px;
-    filter: brightness(40%);
+    filter: brightness(20%);
 
 }
 .bg-fon {
@@ -227,4 +225,52 @@ body {
 #load:hover {
     background-color: #e3e3e3;
     text-replace: 0.2s;
+}
+#our {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30pt;
+    margin-top: 101px;
+    font-weight: bold;
+    color: #191919;
+    margin-left: 574px
+}
+#was {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16pt;
+    margin-top: 40px;
+    color: #787878;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px
+}
+video {
+    width: 1170px;
+    height: 571px;
+    cursor: pointer;
+    margin-left: 98px;
+    margin-right: 98px
+}
+#div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#playIc {
+    width: 85px;
+    height: 85px;
+    background-color: #10c9c3;
+    border-radius: 50%;
+    position: absolute;
+    left: 641px;
+    top: 3478px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.non {
+    opacity: 0
 }
