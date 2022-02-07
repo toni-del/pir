@@ -274,3 +274,36 @@ video {
 .non {
     opacity: 0
 }
+.uix {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #191919;
+    margin-top: 31px;
+    margin-bottom: 19px
+}
+.be {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16pt;
+    color: #787878
+}
+#serv {
+    height: 535px;
+    background-color: #f5f5f5;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+.serv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.bes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
