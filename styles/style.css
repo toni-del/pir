@@ -307,3 +307,62 @@ video {
     align-content: center;
     align-items: center;
 }
+#test {
+    height: 500px;
+    background-color: #10c9c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.outst {
+    font-size: 24pt;
+    /*width: 675px;
+    height: 93px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#text1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+#mich {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px
+}
+.nonact {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #b0e8e6;
+    cursor: pointer;
+}
+.act {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+#slid {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 40px;
+    margin-top: 109px;
+}
+.na {
+    position: absolute;
+    opacity: 0%;
+}
+.a {
+    position: static;
+    opacity: 100%;
+    transition: 0.5s
+}

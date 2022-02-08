@@ -20,3 +20,15 @@ function start(x, y) {
 	b = true
 }
 }
+act = 2
+function changeSlide(x) {
+	e = document.getElementById("o"+x)
+	a = document.getElementById("o"+act)
+	er = document.getElementById("r"+x)
+	ar = document.getElementById("r"+act)
+	e.className = "outst a"
+	a.className = "outst na"
+	er.className = "act"
+	ar.className = "nonact"
+	act = x
+}
