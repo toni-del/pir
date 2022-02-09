@@ -84,7 +84,7 @@ a {
 body {
     padding: 0;
     margin: 0;
-    background: white;
+    background-color: : white;
     width: 1366px;
     height: 5797px
 }
@@ -365,4 +365,12 @@ video {
     position: static;
     opacity: 100%;
     transition: 0.5s
+}
+#clients {
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
