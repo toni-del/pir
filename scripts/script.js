@@ -32,3 +32,21 @@ function changeSlide(x) {
 	ar.className = "nonact"
 	act = x
 }
+pra = 0
+function changecol(x) {
+	// for (i = -1; i < x; i++) {
+	e = document.querySelectorAll('.a1f')
+	e[pra].id = ""
+	e[x].id = "chos"
+	pra = x
+}
+window.onscroll = function() {
+	scrolled = window.pageYOffset || document.documentElement.scrollTop;
+	 if(scrolled < 904) changecol(0)
+	 if(scrolled > 904 && scrolled < 2233)changecol(1)
+	 if(scrolled > 2233 && scrolled < 3082)changecol(2)
+	 if(scrolled > 3082 && scrolled < 3859)changecol(3)
+	 if(scrolled > 3859 && scrolled < 4444)changecol(4)
+	 if(scrolled > 4444 && scrolled < 5093)changecol(5)
+	 if(scrolled > 5093)changecol(6)
+}
